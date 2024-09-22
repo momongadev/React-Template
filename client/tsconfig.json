@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"], // Include all .ts and .tsx files in the src directory
+  "exclude": ["node_modules"] // Exclude the node_modules directory
+}
